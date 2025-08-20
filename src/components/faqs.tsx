@@ -50,7 +50,7 @@ export const Faqs = () => {
     }
     return (
         <div className="flex justify-center transition-all" id="faq">
-            <div className="mt-15 w-full max-w-[1280px] p-4 justify-between items-center ml-[15px] mr-[15px] flex-col">
+            <div className="mt-15 w-full max-w-[880px] p-4 justify-between items-center ml-[15px] mr-[15px] flex-col">
                 <div className="w-full inline-flex flex-col justify-center items-center gap-4">
                     <div className="px-2.5 py-1 rounded-full outline-1 outline-offset-[-1px] outline-theme-input inline-flex justify-center items-center mt-10">
                         <div className="text-center justify-center text-black text-[12px] font-semibold font-['Inter'] leading-none">Часто задаваемые вопросы</div>

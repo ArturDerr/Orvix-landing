@@ -32,17 +32,10 @@ export const Header = () => {
                     <a href="#cases" className="justify-center text-black text-sm font-medium font-['Inter'] leading-tight cursor-pointer hover:underline">Кейсы</a>
                     <a href="#faq" className="justify-center text-black text-sm font-medium font-['Inter'] leading-tight cursor-pointer hover:underline">FAQ</a>
                 </div>
-                <div className="hidden justify-start items-center gap-1 md:flex">
+                <div className=" justify-start items-center gap-1 flex">
                     <Button variant="outline">
                         <div className="justify-center text-black text-sm font-medium font-['Inter'] leading-tight">Заказать проект</div>
                     </Button>
-                </div>
-                <div className="w-6 h-6 flex md:hidden">
-                    <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.5 17.5H19.5" stroke="#020618" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
-                        <path d="M4.5 12H19.5" stroke="#020618" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
-                        <path d="M4.5 6.5H19.5" stroke="#020618" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"/>
-                    </svg>
                 </div>
             </div>
         </div>

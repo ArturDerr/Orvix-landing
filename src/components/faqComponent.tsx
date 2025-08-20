@@ -14,11 +14,11 @@ export const FaqComponent = ({ faq, index, toggleFAQ }: IProps) => {
                     <p className="pt-[20px] pb-[20px] text-[18px] text-black font-['Inter'] leading-normal font-medium  hover:underline">
                         {faq.question}
                     </p>
-                    <img src={arrow} className={`w-[15px] h-[15px] transition-transform duration-300 ease-in-out ${faq.open ? "rotate-[-90deg]" : "rotate-0"}`}/>
+                    <img src={arrow} className={`w-[13px] h-[13px] transition-transform duration-300 ease-in-out ${faq.open ? "rotate-[-90deg]" : "rotate-0"}`}/>
                 </div>
                 <div>
                     {faq.open && (
-                        <div className="overflow-hidden pb-[20px] text-[18px] text-black font-['Inter'] leading-normal font-regular">
+                        <div className="overflow-hidden pb-[20px] text-[18px] text-black font-['Inter'] leading-normal font-light">
                             <p>{faq.content}</p>
                         </div>
                     )}
