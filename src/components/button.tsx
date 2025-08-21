@@ -50,7 +50,7 @@ function Button({
   return (
     <Comp
       data-slot="button"
-      onClick={() => window.location.href = "https://t.me/kirilllrrr09"}
+      onClick={() => window.location.href = "https://t.me/m/kGribyJmNzUy"}
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
     />

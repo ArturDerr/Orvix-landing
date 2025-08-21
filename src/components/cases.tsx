@@ -59,7 +59,7 @@ export const Cases = () => {
                                             w-full sm:w-[395px]"
                             >
                             <img
-                                className="w-full h-[210px] object-cover"
+                                className="w-full h-[210px] object-cover brightness-90 duration-200 transition-all hover:brightness-100"
                                 src={`../../public/image${i + 1}.png`}
                             />
                             <div className="p-6">
