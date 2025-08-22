@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import arrow from "../../public/arrow.svg"
+import arrow from "/arrow.svg"
 
 export const Cases = () => {
     const scrollRef = useRef<HTMLDivElement | null>(null)
@@ -60,7 +60,7 @@ export const Cases = () => {
                             >
                             <img
                                 className="w-full h-[210px] object-cover brightness-90 duration-200 transition-all hover:brightness-100"
-                                src={`../../public/image${i + 1}.png`}
+                                src={`./image${i + 1}.png`}
                             />
                             <div className="p-6">
                                 <div className="text-black text-2xl font-semibold mt-3">{card.title}</div>

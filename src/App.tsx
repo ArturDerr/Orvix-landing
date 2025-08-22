@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Main />
-      <div className="w-full overflow-hidden absolute -z-10 inset-0 mt-60">
+      <div className="w-full absolute -z-10 inset-0  mt-60">
         <svg
           className="w-full h-auto"
           viewBox="0 0 1512 172"

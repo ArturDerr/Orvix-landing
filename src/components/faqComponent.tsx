@@ -1,4 +1,4 @@
-import arrow from "../../public/arrow-.svg"
+import arrow from "/arrow-.svg"
 
 interface IProps {
     faq: any
